@@ -35,5 +35,9 @@ jobs:
         with:
           analyzers: |
             go.sia.tech/jape.Analyzer@support-separate-packages
+          directories: |
+            autopilot
+            bus bus/client
+            worker worker/client
       - name: Build
         run: go build -o bin/ ./cmd/renterd
