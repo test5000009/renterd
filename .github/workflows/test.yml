@@ -58,7 +58,7 @@ jobs:
         with:
           analyzers: |
             go.sia.tech/jape.Analyzer@support-separate-packages
-	  directories: |
+          directories: |
             autopilot
             bus bus/client
             worker worker/client
