@@ -39,5 +39,6 @@ jobs:
             autopilot
             bus bus/client
             worker worker/client
+            worker
       - name: Build
         run: go build -o bin/ ./cmd/renterd
