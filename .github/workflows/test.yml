@@ -31,7 +31,7 @@ jobs:
         with:
           go-version: ${{ matrix.go-version }}
       - name: Check Endpoints
-        uses: github.com/siafoundation/action-golang-analysis@HEAD
+        uses: github.com/SiaFoundation/action-golang-analysis@HEAD
         with:
           analyzers: |
             go.sia.tech/jape.Analyzer@master
