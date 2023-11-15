@@ -31,10 +31,10 @@ jobs:
         with:
           go-version: ${{ matrix.go-version }}
       - name: Check Endpoints
-        uses: test5000009/action-test@HEAD
+        uses: github.com/siafoundation/action-golang-analysis@HEAD
         with:
           analyzers: |
-            go.sia.tech/jape.Analyzer@HEAD
+            go.sia.tech/jape.Analyzer@master
           directories: |
             autopilot
             bus bus/client
