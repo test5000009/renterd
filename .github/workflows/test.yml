@@ -34,7 +34,7 @@ jobs:
         uses: test5000009/action-test@HEAD
         with:
           analyzers: |
-            go.sia.tech/jape.Analyzer@support-separate-packages
+            go.sia.tech/jape.Analyzer@HEAD
           directories: |
             autopilot
             bus bus/client
